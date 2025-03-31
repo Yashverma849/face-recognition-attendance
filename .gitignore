@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+virtualenv/
+
+# Face recognition specific
+data/trainer.yml
+src/images/train/*
+!src/images/train/.gitkeep
+src/images/temp/*
+!src/images/temp/.gitkeep
+
+# CSV files with attendance data (optional - you may want to keep some sample data)
+data/attendance_*.csv
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo 
